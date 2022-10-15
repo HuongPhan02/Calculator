@@ -94,7 +94,8 @@
             // 
             // btCong
             // 
-            this.btCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCong.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btCong.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.btCong.Location = new System.Drawing.Point(448, 259);
             this.btCong.Name = "btCong";
             this.btCong.Size = new System.Drawing.Size(151, 66);
@@ -105,7 +106,8 @@
             // 
             // txtTru
             // 
-            this.txtTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTru.ForeColor = System.Drawing.Color.DarkRed;
             this.txtTru.Location = new System.Drawing.Point(179, 259);
             this.txtTru.Name = "txtTru";
             this.txtTru.Size = new System.Drawing.Size(151, 66);
