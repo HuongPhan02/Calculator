@@ -35,6 +35,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.txtKetQua = new System.Windows.Forms.TextBox();
             this.btCong = new System.Windows.Forms.Button();
+            this.txtTru = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -98,15 +99,27 @@
             this.btCong.Name = "btCong";
             this.btCong.Size = new System.Drawing.Size(151, 66);
             this.btCong.TabIndex = 2;
-            this.btCong.Text = "Cộng";
+            this.btCong.Text = "+";
             this.btCong.UseVisualStyleBackColor = true;
             this.btCong.Click += new System.EventHandler(this.btCong_Click);
+            // 
+            // txtTru
+            // 
+            this.txtTru.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTru.Location = new System.Drawing.Point(179, 259);
+            this.txtTru.Name = "txtTru";
+            this.txtTru.Size = new System.Drawing.Size(151, 66);
+            this.txtTru.TabIndex = 2;
+            this.txtTru.Text = "-";
+            this.txtTru.UseVisualStyleBackColor = true;
+            this.txtTru.Click += new System.EventHandler(this.btTru_Click);
             // 
             // TinhToan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.txtTru);
             this.Controls.Add(this.btCong);
             this.Controls.Add(this.txtKetQua);
             this.Controls.Add(this.txtSoB);
@@ -130,6 +143,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtKetQua;
         private System.Windows.Forms.Button btCong;
+        private System.Windows.Forms.Button txtTru;
     }
 }
 
