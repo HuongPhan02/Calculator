@@ -30,10 +30,10 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtSoA = new System.Windows.Forms.TextBox();
+            this.txtSoB = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.txtKetQua = new System.Windows.Forms.TextBox();
             this.btCong = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -57,21 +57,21 @@
             this.label2.TabIndex = 0;
             this.label2.Text = "Số b";
             // 
-            // textBox1
+            // txtSoA
             // 
-            this.textBox1.Location = new System.Drawing.Point(179, 104);
-            this.textBox1.Multiline = true;
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(335, 34);
-            this.textBox1.TabIndex = 1;
+            this.txtSoA.Location = new System.Drawing.Point(179, 104);
+            this.txtSoA.Multiline = true;
+            this.txtSoA.Name = "txtSoA";
+            this.txtSoA.Size = new System.Drawing.Size(335, 34);
+            this.txtSoA.TabIndex = 1;
             // 
-            // textBox2
+            // txtSoB
             // 
-            this.textBox2.Location = new System.Drawing.Point(179, 147);
-            this.textBox2.Multiline = true;
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(335, 34);
-            this.textBox2.TabIndex = 1;
+            this.txtSoB.Location = new System.Drawing.Point(179, 147);
+            this.txtSoB.Multiline = true;
+            this.txtSoB.Name = "txtSoB";
+            this.txtSoB.Size = new System.Drawing.Size(335, 34);
+            this.txtSoB.TabIndex = 1;
             // 
             // label3
             // 
@@ -83,13 +83,13 @@
             this.label3.TabIndex = 0;
             this.label3.Text = "Kết quả ";
             // 
-            // textBox3
+            // txtKetQua
             // 
-            this.textBox3.Location = new System.Drawing.Point(179, 188);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(335, 34);
-            this.textBox3.TabIndex = 1;
+            this.txtKetQua.Location = new System.Drawing.Point(179, 188);
+            this.txtKetQua.Multiline = true;
+            this.txtKetQua.Name = "txtKetQua";
+            this.txtKetQua.Size = new System.Drawing.Size(335, 34);
+            this.txtKetQua.TabIndex = 1;
             // 
             // btCong
             // 
@@ -100,6 +100,7 @@
             this.btCong.TabIndex = 2;
             this.btCong.Text = "Cộng";
             this.btCong.UseVisualStyleBackColor = true;
+            this.btCong.Click += new System.EventHandler(this.btCong_Click);
             // 
             // TinhToan
             // 
@@ -107,9 +108,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.btCong);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtKetQua);
+            this.Controls.Add(this.txtSoB);
+            this.Controls.Add(this.txtSoA);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -124,10 +125,10 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtSoA;
+        private System.Windows.Forms.TextBox txtSoB;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox txtKetQua;
         private System.Windows.Forms.Button btCong;
     }
 }
