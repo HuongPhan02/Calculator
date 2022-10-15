@@ -10,11 +10,13 @@ using System.Windows.Forms;
 
 namespace Calculator
 {
-    public partial class Form1 : Form
+    public partial class TinhToan : Form
     {
-        public Form1()
+        public TinhToan()
         {
             InitializeComponent();
         }
+
+        
     }
 }
