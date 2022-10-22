@@ -19,7 +19,11 @@ namespace Calculator
 
         private void btCong_Click(object sender, EventArgs e)
         {
+<<<<<<< HEAD
             if (txtSoA.Text!=String.Empty)
+=======
+            if (txtSoA.Text!=String.Empty && txtSoB.Text!=String.Empty)
+>>>>>>> feature-cal
             {
                 double a = double.Parse(txtSoA.Text);
                 double b = double.Parse(txtSoB.Text);
